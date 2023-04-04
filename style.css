@@ -1,0 +1,180 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top_main_div{
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 55% 1fr;   
+}
+
+.sub_div1{
+    width: 90%;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo_and_signin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.login_btn{
+    border: none;
+    background-color: transparent;
+    font-weight: 600
+}
+
+.signup_btn{
+    width: 7vw;
+    height: 5vh;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.hungry_div{
+   color: #282C3F;
+   margin-bottom: 2vh;
+}
+
+.hungry_div > h2{
+    font-weight: 400;
+}
+
+.input_div{
+    background-color: white;
+    border: solid 0.5px #282C3F;
+    height: 8vh;
+    width: 40vw;
+    display: flex;
+}
+
+.input_div > input{
+    background-color: white;
+    height: 7vh;
+    width: 30vw;
+    border: none;
+    font-size: large;
+    padding-left: 3%;
+    outline: none;
+}
+
+.input_div > button{
+    width: 10vw;
+    background-color:#FC8019;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.popular_cities_div{
+    margin-top: 2vh;
+    color: #282C3F;
+}
+
+.popular_cities_div > p >a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #93959F;
+}
+
+
+.sub_div2{
+    width: 100%;
+}
+
+
+/* ------section 2 ---- */
+
+.section2_main{
+    background-color: #2B1E16;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.order_details{
+    width: 90%;
+    display: flex;
+    column-gap: 20vh;
+}
+
+.img1_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.img1_text > h3{
+    margin-top: 6vh;
+}
+
+.img1_text > p{
+    font-size: 14px;
+    margin-top: 1vh;
+}
+
+.section3{
+    height: 80vh;
+    display: grid;
+    padding-right: 20vh;
+    grid-template-columns: 40% 60%;
+}
+
+.restuarent_pocket_div{
+    padding-left: 10vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.phone_img{
+    display: flex;
+}
+
+.footer_main{
+    margin-top: 17px;
+    height: 70vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_sub{
+    margin-top: 10vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    grid-gap: 10vh;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.ft_head{
+    color: #808080;
+    margin-bottom: 2vh;
+}
+
+.footer_link_img{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
